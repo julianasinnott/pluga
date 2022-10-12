@@ -1,0 +1,15 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  --background: #ffffff;
+  --backgroundModal: rgba(147, 215, 255, 0.5);
+  --primary: #0ea7ff;
+  --secundary: #93D7FF;
+  --tertiary: #5b7180;
+  --white: #ffffff;
+  --shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
