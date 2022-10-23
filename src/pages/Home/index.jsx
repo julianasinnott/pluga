@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Apps } from "../../components/Apps";
-import { Template } from "../../components/template";
+import { Template } from "../../components/Template";
 import { StyledButton, StyledDiv } from "../../globalStyle";
 import { useGetApiData } from "../../hooks/useGetApiData";
 
