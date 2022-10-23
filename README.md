@@ -26,7 +26,7 @@ Desenvolver uma tela com listagem de cards representando os apps integrados na P
 ## | Visualize o projeto |
 
 
--- ainda não disponível --
+https://pluga.vercel.app/
 
 
 ## | Create App |
@@ -54,19 +54,42 @@ Este App foi criado com [Vite](https://vitejs.dev/) <br>
 Para clonar e rodar esse projeto você precisa ter instalado: [Git](https://git-scm.com/) e [NodeJS](https://nodejs.org/en/)
 
 <hr>
+
+### Clonando o repositório
 No terminal:
 
-#### Clonando o repositório
-$ `git clone https://github.com/julianasinnott/pluga.git`
+```
+ git clone https://github.com/julianasinnott/pluga.git 
+```
 
-#### Entrando no repositório
-$ `cd pluga`
+### Entrando no repositório
+No terminal:
 
-#### Instalando dependências
-$ `npm install`
+```
+cd pluga
+```
 
-#### Executando
-$ `npm run dev`
+### Instalando dependências
+No terminal:
+
+```
+npm install
+```
+
+### Configurando arquivo de variáveis de ambiente
+
+- Criar arquivo '.env' na raiz do projeto
+- Adicionar a variável abaixo:
+
+```
+VITE_API_URL=https://pluga.co/
+```
+
+### Executando
+No terminal:
+```
+npm run dev
+```
 <hr>
 
 #### Abra http://localhost:5173/ em seu navegador
